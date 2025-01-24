@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import "react-router-dom"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import TaskPage from './pages/TakPage.jsx';
 
